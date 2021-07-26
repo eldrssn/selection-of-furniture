@@ -1,0 +1,58 @@
+@font-face { 
+  font-family: "Muller Bold";
+  src: local("Muller"),
+      local("Muller-Bold"),
+      url("../fonts/MullerBold/MullerBold.woff") format("woff"),
+      url("../fonts/MullerBold/MullerBold.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/MullerBold/MullerBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: "Muller Medium";
+  src: local("Muller"),
+      local("Muller-Medium"),
+      url("../fonts/MullerMedium/MullerMedium.woff") format("woff"),
+      url("../fonts/MullerMedium/MullerMedium.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/MullerMedium/MullerMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: "Muller Regular";
+  src: local("Muller"),
+      local("Muller-Regular"),
+      url("../fonts/MullerRegular/MullerRegular.woff") format("woff"),
+      url("../fonts/MullerRegular/MullerRegular.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/MullerRegular/MullerRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: "PT Sans";
+  src: local("PT Sans"),
+      url("../fonts/PTSansRegular/pt_sans.woff") format("woff"),
+      url("../fonts/PTSansRegular/pt_sans.woff2") format("woff2"),
+      url("../fonts/PTSansRegular/pt_sans.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/PTSansRegular/pt_sans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: "PT Serif";
+  src: local("PT Serif"),
+      url("../fonts/PTSerifBold/PTSerifBold.woff") format("woff"),
+      url("../fonts/PTSerifBold/PTSerifBold.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/PTSerifBold/PTSerifBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}

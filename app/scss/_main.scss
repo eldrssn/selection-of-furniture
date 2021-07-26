@@ -1,0 +1,431 @@
+.section-header {
+  font-family: $font-big-headers;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.section-subheader {
+  font-family: $font-subheader;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: $gray;
+}
+
+.conditions-item {
+  font-family: $font-text;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+
+  border: 1px solid $gray-box;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 42px;
+  position: relative;
+  
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.conditions-item__number {
+  font-family: $font-numbers;
+  font-size: 48px;
+  color: $blue;
+  
+  position: absolute;
+  padding: 30px 15px;
+  text-align: center;
+  top: -40px;
+  background-color: $white;
+  border-bottom: 2px solid $gray-box;
+  border-radius: 50%;
+}
+
+.section-info {
+  color: $black;
+  background-color: $yellow;
+  font-family: $font-text;
+  font-size: 16px;
+  line-height: 22px;
+
+  padding: 25px;
+  border-radius: 5px;
+
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  padding-left: 100px;
+
+  display: block;
+  position: relative;
+
+  &::before {
+    content: url('../images/svg/i-icon.svg');
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 40px;
+    
+    
+  }
+
+  p {
+    display: block;
+  }
+}
+
+.work-list {
+  font-family: $font-subheader;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: $black;
+}
+
+.work-list_number {
+  font-family: $font-numbers;
+  font-size: 36px;
+  color: $blue;
+
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+
+  &::before {
+    content: url('../images/svg/line-right.svg');
+    width: 40px;
+    height: 40px;
+    
+    display: block;
+    position: absolute;   
+    left: 20%;          
+    top: 50%;                        
+    transform: translate(0, -50%);
+  }
+
+  &::after {
+    content: url('../images/svg/line-left.svg');
+    width: 40px;
+    height: 40px;
+    
+    display: inline;
+
+  position: absolute;               
+  top: 50%;                         
+  transform: translate(0, -50%);
+  right: 20%;
+    
+  }
+}
+
+.form-header {
+  font-family: $font-text;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: $black;
+}
+
+.font-label {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.form-control {
+  min-height: 60px;
+
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.form-permission {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 140%;
+  text-align: center;
+
+  span {
+    color: $blue;
+    cursor: pointer;
+  }
+}
+
+.form-quiz {
+border: 1px $blue solid;
+border-radius: 5px;
+}
+
+.form-quiz--header {
+  font-family: $font-small-headers;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.form-quiz--subheader {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+
+  color: $gray;
+}
+
+.steps-item {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid $yellow;
+  position: relative;
+
+  padding-top: 24px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-bottom: 36px;
+
+  span {
+    position: absolute;
+    background-color: $white;
+    top: -25px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.steps-item-number {
+  font-family: $font-numbers;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+
+  color: $blue;
+}
+
+.text-video {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: $blue;
+  
+  padding-left: 62px;
+
+  position: relative;
+  
+
+  &::before {
+    content: url('../images/svg/timer.svg');
+    width: 32px;
+    height: 32px;
+    
+    display: block;
+    position: absolute;
+    left: 0;
+  }
+}
+
+.videoplayer {
+
+  height: 195px;
+  max-width: 500px;
+  background-color: $gray;
+  position: relative;
+
+  svg {
+    position: absolute;
+    display: block;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+}
+
+.video_description {
+  font-family: $font-text;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn-video {
+  height: 72px;
+}
+
+
+.interview_header {
+  font-family: $font-small-headers;
+  font-size: 16px;
+  text-align: center;
+}
+
+.interview_item {
+  font-family: $font-text;
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 68px;
+  position: relative;
+  min-height: 40px;
+  
+  
+  &::before {
+    content: url('../images/svg/question.svg');
+    display: block;
+    position: absolute;
+    left: 12px;
+  }
+}
+
+.contacts {
+  background-color: $yellow;
+  border-radius: 5px;
+  text-align: center;
+
+  h5 {
+    font-family: $font-big-headers;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-family: $font-text;
+  }
+  h5, p {
+    font-size: 16px;
+  }
+}
+
+.map {
+  height: 100vh;
+}
+
+@media (min-width: 767.98px) {
+  .section-subheader {
+    font-size: 20px;
+  }
+
+  .section-header {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .conditions-item {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .section-info {
+    font-size: 20px;
+    line-height: 28px;
+
+    padding-left: 100px;
+    padding-right: 40px;
+
+    p {
+      margin: auto;
+    }
+
+    &::before {
+      top: 25%;
+    }
+  }
+
+  .work-list_number {
+
+    &::before {
+      left: 20%; 
+    }
+
+    &::after{
+      right: 20%;
+    }
+  }
+
+  .form-header {
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  .form-header--aside {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .videoplayer {
+    height: 400px;
+    max-width: 800px;
+  }
+
+  .interview_header, .interview_item{
+    font-size: 20px;
+  }
+
+  .map {
+    height: 674px;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 990px) {
+  .map {
+    height: 100%;
+  }
+}
+@media (min-width: 1199.98px) {
+  .section-info {
+    padding-left: 200px;
+    padding-right: 100px;
+
+    &::before {
+      left: 120px;
+    }
+  }
+
+  .work-list_number {
+
+    &::before {
+      left: 30%; 
+    }
+
+    &::after{
+      right: 30%;
+    }
+  }
+
+  .videoplayer {
+    height: 400px;
+    max-width: 700px;
+  }
+  
+
+}
